@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img class="h-15 w-30" src="../IMG/LOGO.png" alt="" />
+          </div>
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul class="font-semibold">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">MENU</a></li>
+              <li><a href="#contact">CONTACTS</a></li>
+            </ul>
+          </nav>
+          <!-- toggle menu -->
+          <div class="toggleMenu">
+            <span></span>
+            <span></span>
+          </div>
+          <!-- transparent -->
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- announcement -->
+    <section>
+      <div class="pt-28"></div>
+      <div class="btmtext text-center font-semibold py-2 bg-white text-sm">
+        <p>
+          <i class="fa-solid fa-bullhorn mr-1"></i>
+          This website provides information about our store. Online transactions
+          are coming soon.
+        </p>
+      </div>
+    </section>
+
+    <!-- banner -->
+    <section class="bg-accent w-full">
+      <div class="container mx-auto px-5">
+        <div
+          class="flex flex-col-reverse md:flex-row items-center justify-between pt-10 pb-20 md:pb-0 md:pt-16 gap-3 md:gap-10"
+        >
+          <div
+            class="w-full md:w-1/2 flex flex-col items-left md:items-start gap-6 md:text-left"
+          >
+            <h1 class="font-semibold text-black text-[45px] md:text-48/1">
+              <span class="font-black">HUNGRY?</span> YOU'RE IN THE RIGHT PLACE
+            </h1>
+            <a class="btn btn--orange w-fit" href="#">VIEW OUR MENU</a>
+          </div>
+          <img
+            src="../IMG/banner-home.png"
+            alt="deliverguy"
+            class="w-72 lg:w-fit"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- welcome -->
+    <section class="py-12 md:py-20">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="grid grid-cols-1 lg:grid-cols-2">
+          <!-- img -->
+          <div class="grid place-content-center relative">
+            <img
+              class="border-4 border-black w-72 rounded-2xl"
+              src="../IMG/3chefs.png"
+              alt=""
+            />
+            <img
+              class="border-4 border-black w-72 rounded-2xl absolute top-30 left-35 md:left-72 lg:left-80"
+              src="../IMG/food.png"
+              alt=""
+            />
+          </div>
+          <!-- details -->
+          <div class="mt-40 md:text-center lg:text-left">
+            <h2 class="uppercase text-black mb-5">Welcome to Get Pizza</h2>
+
+            <p
+              class="text-primary mb-5 font-bold uppercase text-sm md:text-base tracking-wide leading-relaxed"
+            >
+              Our chefs are working 24/7 and are ready to accept visitors
+              <br class="hidden md:block" />
+              and at any time of the day and night
+            </p>
+
+            <p class="text-black/80">
+              We would like to take this opportunity to welcome you at our Pizza
+              House. We are offering a warm, friendly atmosphere to share a meal
+              with family and friends at any time of the day or evening.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../js/toggle-menu.js"></script>
+  </body>
+</html>
