@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GetPizza</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="icon" href="../IMG/logoo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img class="h-15 w-30" src="../IMG/LOGO.png" alt="" />
+          </div>
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul class="font-semibold">
+              <li><a href="./home.html">HOME</a></li>
+              <li><a href="./about.html">ABOUT</a></li>
+              <li><a href="./menu.html">MENU</a></li>
+              <li><a href="#contact">CONTACTS</a></li>
+            </ul>
+          </nav>
+          <!-- toggle menu -->
+          <div class="toggleMenu">
+            <span></span>
+            <span></span>
+          </div>
+          <!-- transparent -->
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- announcement -->
+    <section>
+      <div class="pt-28"></div>
+      <div class="btmtext text-center font-semibold py-2 bg-white text-sm">
+        <p>
+          <i class="fa-solid fa-bullhorn mr-1"></i>
+          This website provides information about our store. Online transactions
+          are coming soon.
+        </p>
+      </div>
+    </section>
+
+    <!-- menu banner -->
+    <div class="relative h-175 w-full overflow-hidden">
+      <img
+        src="../img/menubanner.jpg"
+        alt="menuBanner"
+        class="absolute inset-0 w-full h-full object-cover object-left"
+      />
+      <div class="absolute inset-0 bg-black/80"></div>
+
+      <div class="container relative z-10 flex justify-center items-center">
+        <h2
+          class="text-white mt-60 font-extrabold md:max-w-150 md:text-center max-w-80"
+        >
+          ALWAYS FRESH & READY TO BE SERVED.
+        </h2>
+      </div>
+    </div>
+
+    <!-- offers -->
+    <section class="py-12 md:py-20 bg-tertiary w-full">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="max-w-300 mx-auto">
+          <!-- links -->
+          <div
+            class="flex gap-5 bg-secondary text-tertiary pb-5 font-extrabold rounded-3xl mb-10 lg:w-fit mx-auto md:px-5 w-fit px-5 text-[2px]"
+          >
+            <h6 id="tabs-1" class="menuTab active">PIZZA</h6>
+            <h6 id="tabs-2" class="menuTab">BURGER</h6>
+            <h6 id="tabs-3" class="menuTab">CHICKEN</h6>
+            <h6 id="tabs-4" class="menuTab">DRINKS</h6>
+            <h6 id="tabs-5" class="menuTab">CAKE</h6>
+          </div>
+          <!-- content -->
+          <div class="max-w-200 mx-auto">
+            <!-- item1 -->
+            <div class="foodItem active" id="tabs-1-detail">
+              <div
+                class="foodItemWrap grid grid-cols-3 grid-rows-2 gap-8 w-full"
+              >
+                <!-- 1 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/prosciutto.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 2 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/bbq pizza.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 3 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/bbq pizza.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 4 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/bbq pizza.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 5 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/bbq pizza.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 6 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/bbq pizza.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">PROSCIUTTO PIZZA</h5>
+                  <p class="my-2">$25.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div class="foodItem" id="tabs-2-detail">
+              <div
+                class="foodItemWrap grid grid-cols-3 grid-rows-2 gap-8 w-full"
+              >
+                <!-- 1 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$15.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 2 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$18.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 3 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$18.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 4 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$18.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 5 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$18.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 6 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHEESE BURGER.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">CHEESE BURGER</h5>
+                  <p class="my-2">$18.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- item3 -->
+            <div class="foodItem" id="tabs-3-detail">
+              <div
+                class="foodItemWrap grid grid-cols-3 grid-rows-2 gap-8 w-full"
+              >
+                <!-- 1 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$45.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 2 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$58.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 3 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$58.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 4 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$58.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 5 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$58.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 6 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/CHICKEN WITH BREAD.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">FILLET WITH BREAD</h5>
+                  <p class="my-2">$58.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- item4 -->
+            <div class="foodItem" id="tabs-4-detail">
+              <div
+                class="foodItemWrap grid grid-cols-3 grid-rows-2 gap-8 w-full"
+              >
+                <!-- 1 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$10.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 2 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$12.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 3 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$12.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 4 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$12.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 5 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$12.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 6 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/ORANGE DRINK.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">ORANGE DRINKS</h5>
+                  <p class="my-2">$12.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- item5 -->
+            <div class="foodItem" id="tabs-5-detail">
+              <div
+                class="foodItemWrap grid grid-cols-3 grid-rows-2 gap-8 w-full"
+              >
+                <!-- 1 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$23.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 2 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$20.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 3 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$20.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 4 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$20.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 5 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$20.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+                <!-- 6 -->
+                <div
+                  class="foodCard flex flex-col items-center text-white md:rounded-2xl md:border p-8 text-center"
+                >
+                  <img
+                    class="size-40 mx-auto mb-4"
+                    src="../IMG/MUFFIN-CAKE.png"
+                    alt=""
+                  />
+                  <h5 class="font-bold">MUFFIN</h5>
+                  <p class="my-2">$20.00</p>
+                  <div class="stars mb-4">
+                    <div class="text-yellow-300 text-3xl">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>★</span>
+                    </div>
+                  </div>
+                  <a class="btn btn--orangetransparent w-fit" href="#"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta -->
+    <section class="bg-primary">
+      <div class="container">
+        <div
+          class="flex flex-col md:flex-row items-center justify-center md:gap-2 lg:gap-8"
+        >
+          <div class="hidden md:block pt-8">
+            <img
+              class="md:w-100 lg:w-120 object-fill"
+              src="../IMG/chef.png"
+              alt=""
+            />
+          </div>
+
+          <div class="text-center py-12 md:py-20">
+            <h2 class="text-white text-2xl font-bold mb-1">LET'S CONNECT</h2>
+            <p class="text-white text-base md:text-lg mb-6">
+              and get a 10% off bill offers and invites
+            </p>
+
+            <form
+              action="#"
+              class="bg-white p-3 flex w-full max-w-md mx-auto gap-2"
+            >
+              <input
+                type="email"
+                placeholder="YOUR EMAIL ADDRESS"
+                class="flex px-4 py-2 text-sm text-gray-500 font-medium"
+                required
+              />
+              <button type="submit" class="btn btn--cta w-fit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container md:px-40">
+        <!-- wrapper -->
+        <div class="footerWrapper">
+          <img src="../IMG/LOGO.png" alt="logo" />
+          <ul class="footerDetail">
+            <li>
+              <h4>ADDRESS</h4>
+              <p>570 8th Ave, New York, NY</p>
+              <p>10018 United States</p>
+            </li>
+            <li>
+              <h4>BOOK A TABLE</h4>
+              <p>Dogfood Och Sliders Foodtruck.</p>
+              <p>Under Om Oss Kan Ni Lasa</p>
+            </li>
+            <li>
+              <h4>OPENING HOURS</h4>
+              <p>Monday - Friday</p>
+              <p>10:00 AM - 11:00PM</p>
+            </li>
+          </ul>
+        </div>
+        <p class="text text-primary">0123456789</p>
+      </div>
+    </footer>
+
+    <script src="../js/toggle-menu.js"></script>
+    <script src="../js/tabmenu.js"></script>
+  </body>
+</html>

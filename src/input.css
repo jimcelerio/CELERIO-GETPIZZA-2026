@@ -38,7 +38,7 @@
     @apply scroll-smooth scroll-p-16;
   }
   body {
-    @apply overflow-x-hidden font-primary text-black/80 text-base bg-white;
+    @apply overflow-x-hidden font-primary text-black/90 text-base bg-white;
   }
   .container {
     @apply max-w-7xl w-full mx-auto px-4;
@@ -137,5 +137,38 @@
   }
   .foodTab.active {
     @apply outline-3 outline-secondary outline-offset-5;
+  }
+  /* footer */
+  footer {
+    @apply p-5;
+  }
+
+  .footerWrapper {
+    @apply flex flex-col items-center text-center py-12 gap-8;
+  }
+
+  .footerWrapper ul {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-10;
+  }
+  .text {
+    @apply items-center text-center;
+  }
+
+  .menuTab {
+    @apply font-bold  pr-3 cursor-pointer lg:px-10;
+  }
+
+  .menuTab:after {
+    @apply content-["_"] inline-block w-px h-10 bg-white left-4 lg:left-10 top-3 relative;
+  }
+  .menuTab:last-child:after {
+    @apply opacity-0;
+  }
+
+  .menuTab:last-child {
+    @apply border-none;
+  }
+  .menuTab.active {
+    @apply text-primary;
   }
 }

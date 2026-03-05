@@ -10,6 +10,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
   </head>
   <body>
     <!-- header -->
@@ -53,64 +57,171 @@
       </div>
     </section>
 
-    <!-- banner -->
-    <section class="bg-accent w-full">
-      <div class="container mx-auto px-5">
-        <div
-          class="flex flex-col-reverse md:flex-row items-center justify-between pt-10 pb-20 md:pb-0 md:pt-16 gap-3 md:gap-10"
-        >
-          <div
-            class="w-full md:w-1/2 flex flex-col items-left md:items-start gap-6 md:text-left"
-          >
-            <h1 class="font-semibold text-black text-[45px] md:text-48/1">
-              <span class="font-black">HUNGRY?</span> YOU'RE IN THE RIGHT PLACE
-            </h1>
-            <a class="btn btn--orange w-fit" href="#">VIEW OUR MENU</a>
-          </div>
-          <img
-            src="../IMG/banner-home.png"
-            alt="deliverguy"
-            class="w-72 lg:w-fit"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- welcome -->
-    <section class="py-10 pb-10 md:pb-30">
+    <!-- about banner -->
+    <section>
       <div class="container">
         <!-- wrapper -->
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-          <!-- img -->
-          <div class="grid place-content-center relative">
-            <img
-              class="border-4 border-black w-72 rounded-2xl"
-              src="../IMG/3chefs.png"
-              alt=""
-            />
-            <img
-              class="border-4 border-black w-72 rounded-2xl absolute top-30 left-55 md:left-72 lg:top-60 lg:left-80"
-              src="../IMG/food.png"
-              alt=""
-            />
+        <div
+          class="wrapper pb-10 pt-5 grid grid-cols-1 md:grid-cols-2 md:gap-4 lg:gap-10"
+        >
+          <!-- yt link -->
+          <div class="flex justify-center">
+            <iframe
+              class="w-[400px] h-[315px] md:w-[800px] lg:h-[500px]"
+              src="https://www.youtube.com/embed/Y6MHE0-CQAs?si=JcOisxXNfW7kkT1R"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
-          <!-- details -->
-          <div class="mt-40 md:text-center lg:text-left">
-            <h2 class="uppercase text-black mb-5">Welcome to Get Pizza</h2>
-
-            <p
-              class="text-primary mb-5 font-bold uppercase text-sm md:text-base tracking-wide leading-relaxed"
+          <!-- right text -->
+          <div class="flex justify-center items-center flex-col gap-5">
+            <h1
+              class="text-primary mt-6 font-extrabold text-5xl md:text-center lg:text-left"
             >
-              Our chefs are working 24/7 and are ready to accept visitors
-              <br class="hidden md:block" />
-              and at any time of the day and night
-            </p>
-
-            <p class="text-black/80">
+              SERVING GET PIZZAS BY THE SINCE 1985
+            </h1>
+            <p class="text- text-[21px]">
               We would like to take this opportunity to welcome you at our Pizza
               House. We are offering a warm, friendly atmosphere to share a meal
               with family and friends at any time of the day or evening.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our story -->
+    <section class="py-20">
+      <div class="container">
+        <!-- title -->
+        <h3 class="text-center text-black mb-12 font-extrabold">OUR STORY</h3>
+        <!-- wrapper -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <!-- drop down left -->
+          <div class="flex flex-col justify-center items-center w-full gap-5">
+            <div class="contactFaq__item group w-full">
+              <div
+                class="contactFaq__item--question flex justify-between items-center bg-primary p-4 cursor-pointer text-white"
+              >
+                <h5>1985</h5>
+                <i
+                  class="fa-solid fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"
+                ></i>
+              </div>
+              <div
+                class="contactFaq__item--answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-gray-50"
+              >
+                <div class="p-6 text-black/70 leading-relaxed">
+                  1985 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua enim ad minim veniam. ex ea commodo consequatuais
+                  irure. Dolor in reprehenderit in volue.
+                </div>
+              </div>
+            </div>
+
+            <div class="contactFaq__item group w-full">
+              <div
+                class="contactFaq__item--question flex justify-between items-center bg-primary p-4 cursor-pointer text-white"
+              >
+                <h5>1990</h5>
+                <i
+                  class="fa-solid fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"
+                ></i>
+              </div>
+              <div
+                class="contactFaq__item--answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-gray-50"
+              >
+                <div class="p-6 text-black/70 leading-relaxed">
+                  1990 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua enim ad minim veniam. ex ea commodo consequatuais
+                  irure. Dolor in reprehenderit in volue.
+                </div>
+              </div>
+            </div>
+
+            <div class="contactFaq__item group w-full">
+              <div
+                class="contactFaq__item--question flex justify-between items-center bg-primary p-4 cursor-pointer text-white"
+              >
+                <h5>2000</h5>
+                <i
+                  class="fa-solid fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"
+                ></i>
+              </div>
+              <div
+                class="contactFaq__item--answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-gray-50"
+              >
+                <div class="p-6 text-black/70 leading-relaxed">
+                  2000 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua enim ad minim veniam. ex ea commodo consequatuais
+                  irure. Dolor in reprehenderit in volue.
+                </div>
+              </div>
+            </div>
+
+            <div class="contactFaq__item group w-full">
+              <div
+                class="contactFaq__item--question flex justify-between items-center bg-primary p-4 cursor-pointer text-white"
+              >
+                <h5>2010</h5>
+                <i
+                  class="fa-solid fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"
+                ></i>
+              </div>
+              <div
+                class="contactFaq__item--answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-gray-50"
+              >
+                <div class="p-6 text-black/70 leading-relaxed">
+                  2010 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua enim ad minim veniam. ex ea commodo consequatuais
+                  irure. Dolor in reprehenderit in volue.
+                </div>
+              </div>
+            </div>
+
+            <div class="contactFaq__item group w-full">
+              <div
+                class="contactFaq__item--question flex justify-between items-center bg-primary p-4 cursor-pointer text-white"
+              >
+                <h5>2021</h5>
+                <i
+                  class="fa-solid fa-chevron-down transition-transform duration-300 group-[.active]:rotate-180"
+                ></i>
+              </div>
+              <div
+                class="contactFaq__item--answer max-h-0 overflow-hidden transition-all duration-300 ease-in-out bg-gray-50"
+              >
+                <div class="p-6 text-black/70 leading-relaxed">
+                  2021 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua enim ad minim veniam. ex ea commodo consequatuais
+                  irure. Dolor in reprehenderit in volue.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden md:flex justify-center items-center">
+            <img
+              class="rounded-3xl lg:h-130"
+              src="../IMG/meeting.png"
+              alt="Meeting"
+            />
           </div>
         </div>
       </div>
@@ -394,6 +505,105 @@
       </div>
     </section>
 
+    <!-- review -->
+    <section class="py-12 md:py-12">
+      <div class="container">
+        <h3 class="text-center justify-center mb-7 font-extrabold">
+          CLIENTS REVIEW
+        </h3>
+        <!-- wrapper -->
+        <div class="max-w-2xl mx-auto">
+          <!-- slider -->
+          <div class="reviewSlider text-center">
+            <!-- 1 -->
+            <div>
+              <img
+                src="../IMG/feedback.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">Patrick Greenish</p>
+            </div>
+            <!-- 2 -->
+            <div>
+              <img
+                src="../IMG/feedback2.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">Sarah Wilson</p>
+            </div>
+            <!-- 3 -->
+            <div>
+              <img
+                src="../IMG/feedback3.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">Michael Tan</p>
+            </div>
+            <!-- 4 -->
+            <div>
+              <img
+                src="../IMG/feedback4.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">Anna Cruz</p>
+            </div>
+            <!-- 5 -->
+            <div>
+              <img
+                src="../IMG/feedback5.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">David Lim</p>
+            </div>
+            <!-- 6 -->
+            <div>
+              <img
+                src="../IMG/feedback6.png"
+                class="w-32 h-32 rounded-full object-cover mx-auto"
+                alt="client"
+              />
+              <p class="mt-6">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Obcaecati quibusdam dicta beatae dolor in rem nulla fugiat vitae
+                ipsum culpa."
+              </p>
+              <p class="mt-4">Emma Garcia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- cta -->
     <section class="bg-primary">
       <div class="container">
@@ -461,7 +671,10 @@
       </div>
     </footer>
 
+    <script src="../js/accordion.js"></script>
     <script src="../js/toggle-menu.js"></script>
     <script src="../js/tab.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="../js/slider.js"></script>
   </body>
 </html>
